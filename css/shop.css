@@ -1,0 +1,39 @@
+/* 
+    Document   : member.css
+    Created on : 2013/04/10, 17:34:20
+    Author     : chihara
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table.inputform {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.inputform th,table.inputform td{
+  border:none;
+  vertical-align: top;
+  text-align: left;
+  white-space: nowrap;
+  line-height: 1.8em;
+}
+table.list {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.list th,table.list td{
+  border:1px solid black;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 1px 8px;
+}
+tr[rel="clk"]:hover{
+  background-color: activecaption;
+  cursor: pointer;
+  color: white;
+}
+
+#detail_form{
+  padding: 10px;
+  overflow: auto;
+}

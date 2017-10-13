@@ -1,0 +1,2 @@
+          <input type="text" name="O_DATE1" value="" maxlength="10" style="width:100px;"     class="txt" id="O_DATE1" /><div onclick="open_Datepicker('o_date1','依頼日(自)');" class="icon-button ui-corner-all"><span class="ui-icon ui-icon-calendar">.</span></div>～
+          <input type="text" name="O_DATE2" value="" maxlength="10" style="width:100px;"     class="txt" id="O_DATE2" /><div onclick="open_Datepicker('o_date2','依頼日(至)');" class="icon-button ui-corner-all"><span class="ui-icon ui-icon-calendar">.</span></div>

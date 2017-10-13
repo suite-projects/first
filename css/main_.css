@@ -1,0 +1,354 @@
+@charset "utf-8";
+
+*{padding:0; margin:0;}
+
+
+/* body----------------------------------@*/
+body   {
+	color:#000;
+	font-size: 12px;
+	line-height: 160%;
+	font-family:"qMmpS Pro W3", "Hiragino Kaku Gothic Pro", "CI", Meiryo, Osaka, "lr oSVbN", "MS PGothic", sans-serif;
+	text-align: center;
+}a:hover { color: #fe7856; text-decoration:none; }
+
+#container {
+	width: 1130px;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+#header{
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 5px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #006633;
+	border-right-color: #006633;
+	border-bottom-color: #006633;
+	border-left-color: #006633;
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+#topimage{
+	background-image: url(http://203.211.229.7/image/toplogo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	text-indent: -5000px;
+	margin: auto;
+}
+
+
+#contents{
+	/*border:solid 1px green;*/
+    margin: 0;
+	padding: 0px;
+	clear: both;
+	color: #00469d;
+	position: relative;
+	height: 670px;
+}
+#left_contents {
+	width: 180px;
+	position: absolute;
+	text-align: center;
+	left: 4px;
+	top: 8px;
+	overflow: hidden;
+}
+#left_contents img {
+	display: block;
+}
+h1{
+	display: inline-block;
+	width: 100%;
+	background-color: #005d97;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+	margin: 0;
+	padding: 5px;
+}
+#left_contents .info{
+  display: inline-block;
+  background-color: #005d97;
+  color: white;
+  text-align: left;
+  padding: 0 20px 50px;
+}
+#right_contents{
+	width: 930px;
+	float: right;
+	position: absolute;
+	left: 192px;
+	top: 60px;
+	overflow: auto;
+	height: 600px;
+}
+#footer_space{
+  height: 40px;
+}
+#footer{
+
+}
+#footer .footer_link{
+	margin-left: 10px;
+	top:5px;
+	text-align: right;
+	display: block;
+}
+
+#footer a{
+  color: gray;
+  margin-right: 30px;
+}
+
+a{
+  text-decoration: none;
+  color:gray;
+}
+
+ul.breadcrumb{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 192px;
+	top: 7px;
+	width: 930px;
+}
+ul.breadcrumb li{
+	font-size: 16px;
+	color: #FFFFFF;
+	margin-bottom: 0px;
+	font-weight: bold;
+	background-image: url(../img/h2-back.gif);
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+ul.breadcrumb li a{
+  font-weight: bold;
+}
+ul.breadcrumb li:last-child{
+  font-weight: bold;
+}
+br.clear{
+  clear: both;
+}
+.err{
+  color: red;
+  font-weight: bold;
+}
+.red{
+  color: red;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+
+.now_menu{
+  color: red;
+  font-weight: bold;
+}
+
+.list dl,.list dt,.list dd {
+  margin: 0;
+  padding: 0;
+}
+.list dt,.list dd {
+  padding-right: 3px;
+}
+
+.list dt {
+  clear: left;
+  float: left;
+}
+
+input[type="text"],input[type="password"],select,textarea{
+	vertical-align: middle;
+	font-family: Verdana, "ＭＳ Ｐゴシック",sans-serif;
+	font-size: 10pt;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #abadb3 #abadb3 #e2e3ea #e2e3ea;		/* 上:red、右:blue、下:green、左:yellow */
+  /*border-radius: 5px;*/
+  margin: 0 5px ;
+}
+input[type="text"]:focus,input[type="password"]:focus,select:focus,textarea:focus{
+	background-color: #ddddff;
+  border-color: #5794bf #5794bf #c5daed #c5daed;		/* 上、右、下、左 */
+}
+input[type="radio"],input[type="checkbox"]{
+  margin: 3px;
+  vertical-align: middle;
+}
+input[type="radio"]:focus,input[type="checkbox"]:focus{
+}
+input[type="radio"]:focus + label,input[type="checkbox"]:focus + label{
+  background-color: #ddddff;
+}
+input{padding: 2px;}
+
+.l{text-align: left!important;}
+.r{text-align: right!important;}
+.c{text-align: center!important;}
+
+.input_readonly{
+	border: gray solid 1px;
+	background-color:#F1FFE9;
+	color: #555555;
+}
+.input_error{
+	background-color:#FFCCCC;
+	color: #000000;
+}
+
+#loginform{
+}
+#loginform table{
+	border-collapse: collapse;
+	margin-left : auto;
+	margin-right : auto;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #005D97;
+	border-right-color: #005D97;
+	border-bottom-color: #005D97;
+	border-left-color: #005D97;
+	width: 100%;
+}
+#loginform th{
+	text-align: left;
+	border:none;
+	padding-left: 20px;
+}
+#loginform td{
+  text-align: right;
+  border:none;
+}
+
+#contact{
+}
+
+#news{
+  border:2px solid #00469d;
+  margin-bottom: 20px;
+  padding: 3px 10px 40px;
+  height: 50%;
+}
+
+#infomation{  /*バナーの部分*/
+}
+.fblogo{
+  clear: both;
+  width: 100%;
+  height: 60px;
+  border: 1px solid black;
+}
+
+input.has_icon {
+  margin-right: 0;
+}
+
+
+
+#header_left {
+	background-image: url(../img/index2_logo.gif);
+	height: 25px;
+	width: 285px;
+	float: left;text-indent: -9999px;
+}
+.header_link {
+	float: right;
+	margin-right: 2px;
+}
+#left_contents a {
+	display: block;
+	padding: 6px;
+	margin-bottom: 5px;
+	border: 1px solid #999999;
+	margin-top: 15px;
+	text-align: left;
+	border-radius: 5px;        /* CSS3草案 */
+
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	box-shadow: 1px 1px 5px #aaa;
+	font-weight: bold;
+	margin-right: 10px;
+}
+#left_contents a:hover {
+	background-color: #FFCC66;
+}
+#left_contents br {
+	display: none;
+	height: 2px;
+}
+#footer {
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+.header_link a {
+	display: block;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	border-radius: 10px;        /* CSS3草案 */
+
+    -webkit-border-radius: 10px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 10px;   /* Firefox用 */
+	color: #FFFFFF;
+	background-color: #567515;
+}
+.header_link a:hover{background-color: #F7D153;}
+#infomation {
+	text-align: center;
+}
+#loginform input {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}

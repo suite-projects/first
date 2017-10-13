@@ -1,0 +1,69 @@
+/* 
+    Document   : member.css
+    Created on : 2013/04/10, 17:34:20
+    Author     : chihara
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table.inputform {
+	width: 99%;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	border-collapse: collapse;
+	margin-bottom: 15px;
+	margin-left: 5px;
+}
+th,td {
+	padding: 5px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+th {
+	color: #003366;
+	background-color: #E1F0FF;
+	text-align: left;
+}
+table.list {
+	width: 99%;
+	border-collapse: collapse;
+	margin-left: 5px;
+}
+table.list th,table.list td{
+  border:1px solid gray;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 1px 5px;
+}
+tr[rel="clk"]:hover{
+  background-color: activecaption;
+  cursor: pointer;
+  color: black;
+}
+
+#detail_form{
+  padding: 10px;
+  overflow: auto;
+}.inputform th {
+	width: 120px;
+}

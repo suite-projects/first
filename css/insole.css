@@ -1,0 +1,77 @@
+/* 
+    Document   : insole.css
+    Created on : 2014/01/23, 17:09:09
+    Author     : LM
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@CHARSET "UTF-8";
+
+ /* オーダーテーブルスタイル */
+ table.withborder{
+	border-collapse: collapse;
+	empty-cells: show;
+}
+table.withborder th{
+	/*background-color: #3399ff ;*/
+	background: #0078ae url(custom-theme/images/ui-bg_glass_45_0078ae_1x400.png) 50% 50% repeat-x;
+	border:1px solid gray;
+	font-weight:bold;
+	color: #eeeeee;
+	line-height: 1.5em;
+}
+
+table.withborder tr:hover{
+  background-color: activecaption;
+  /* cursor: pointer; */
+  color: black;
+}
+
+table.withborder td{
+	border:1px solid lightgray;
+	line-height: 1.5em;
+}
+
+table.calendar{
+	border-collapse: collapse;
+	empty-cells: show;
+}
+table.calendar th{
+	background-color: #FFEE99 ;
+	border:1px solid gray;
+	text-align: center;
+	vertical-align: middle;
+	width: 20px;
+}
+table.calendar td{
+	border:1px solid gray;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+}
+table.calendar th.sun{
+	background-color:#FFDDDD;color:#FF0000;
+}
+table.calendar th.sat{
+	background-color:#DDDDFF;color:#0000FF;
+}
+table.calendar td.sun{
+
+}
+table.calendar td.sat{
+
+}
+table.calendar td.selday{
+	border:2px solid #FFDD00;
+	background-color:#FFFFAA;
+}
+table.calendar td:hover{
+	border:2px solid #FF0000;
+}
+
+td.rect{
+	border:1px solid gray;
+}
+ 
+.ui-state-deactive, .ui-widget-content .ui-state-deactive, .ui-widget-header .ui-state-deactive  {border: 1px solid #333333; background: #f8f8f8 url(images/ui-bg_glass_gray_1x400.png) 50% 50% repeat-x; color: #333333; }

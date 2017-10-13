@@ -1,0 +1,64 @@
+/* 
+    Document   : connect
+    Created on : 2013/04/11, 18:07:13
+    Author     : chihara
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table.list {
+	width: 99%;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+	border-collapse: collapse;
+	margin-left: 5px;
+}
+table.list th,table.list td{
+	padding: 5px;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+th {
+	color: #003366;
+	background-color: #E1F0FF;
+	text-align: left;
+}
+
+table.selector-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.selector-list th,table.selector-list td{
+  border:1px solid black;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+tr.state-hover{
+  background-color: activecaption;
+  cursor: pointer;
+  color: white;
+}
+
+

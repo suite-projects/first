@@ -1,0 +1,10 @@
+Options +FollowSymLinks +ExecCGI
+php_value include_path ".:../include/"
+php_value session.gc_maxlifetime 18000
+php_value short_open_tag 1
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) $1.php [L]
